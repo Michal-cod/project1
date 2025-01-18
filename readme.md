@@ -1,5 +1,5 @@
-# Projekt 2
+# Projekt 1
 
 ---
 
-Strona internetowa dla biura rachunkowego....
+Strona internetowa dla biura rachunkowego.
