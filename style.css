@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.vertical-minus1 {
+    vertical-align: -0.05em;
+}
+
+.background {
+    background: center url(images/istockphoto-155288168-612x612.jpg) no-repeat;
+    background-size: cover;
+
+    min-height: 50vh;
+
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigation-main {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theme-text-light {
+    color: #f1f2ed;
+}
+
+.theme-text-primary {
+    color: #a25442;
+}
+
+.theme-text-secondary {
+    color: #3a5757;
+}
+
+.theme-text-lightyellow {
+    color: #abac88;
+}
+
+.theme-text-darkyellow {
+    color: #ba9058;
+}
+
+.theme-bg-light {
+    background-color: #f1f2ed;
+}
+
+.theme-bg-primary {
+    background-color: #a25442;
+}
+
+.theme-bg-secondary {
+    background-color: #3a5757;
+}
+
+.theme-bg-lightyellow {
+    background-color: #abac88;
+}
+
+.theme-bg-darkyellow {
+    background-color: #ba9058;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.theme-border-light {
+    border-color: #f1f2ed !important;
+}
+
+.ilustracja {
+    float: left;
+    margin-right: 10px;
+}
+
+.team-card {
+    font-size: 0.9em;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #a25442;
+    background-color: #f1f2ed;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.image-background-qa {
+    background: center url("images/zdjecie1.jpg") no-repeat;
+    background-size: cover;
+
+    height: 120%;
+    min-height: 50vh;
+}
+
+@media screen and (min-width: 768px) {
+    .featured-card {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+
+    .pricing-card .card-header {
+        padding-top: 20px;
+    }
+
+    .featured-card .card-header {
+        padding-top: 40px;
+    }
+
+    .pricing-card.order-md-1 {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+        margin-top: 20px;
+    }
+
+    .pricing-card.order-md-3 {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+        margin-top: 20px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
